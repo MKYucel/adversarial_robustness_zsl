@@ -1,0 +1,66 @@
+{
+    "dataset": "SUN",
+    "clean_results":true,
+    "zsl_test": true,
+    "gzsl_test": true,
+    "num_workers":10,        
+    "pin_memory": true,
+    "shuffle_dataset": true,
+    "attack": "fgsm",
+    "fgsm_params":
+			{
+				"epsilon":0.001
+
+			},
+
+    "deepfool_params":
+			{
+				"max_iter":10,
+				"epsilon": 1e-6,
+				"nb_grads_zsl": 10,
+				"nb_grads_gzsl": 10	
+			},
+
+    "carliniwagner_params":
+			{
+				"confidence":0.0,
+				"learning_rate":0.01,
+				"binary_search_steps": 5,
+				"max_iter": 10,
+				"initial_const":0.01,
+                                "max_halving":5,
+				"max_doubling":5	
+			},
+
+    "hasDefense":true,
+    "defense": "spatial_smooth",
+    "ss_params":
+			{			
+			  "window_size": 3
+			},
+
+    "totalvar_params":  {
+			  "max_iter": 3 
+			},
+
+    "CUB_paths":        {
+		          "att_split": "data/CUB/att_splits.mat",
+			  "root": "path_to_cub_images",
+			  "metaData": "data/CUB/res101.mat"
+			},
+
+    "SUN_paths":        {
+		          "att_split": "data/SUN/att_splits.mat",
+			  "root": "path_to_sun_images",
+			  "metaData": "data/SUN/res101.mat"
+			},
+
+
+    "AWA2_paths":        {
+		          "att_split": "data/AWA2/att_splits.mat",
+			  "root": "path_to_awa2_images",
+			  "metaData": "data/AWA2/res101.mat"
+			}
+
+}
+
