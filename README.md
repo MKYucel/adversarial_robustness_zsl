@@ -5,10 +5,18 @@ This repository contains the PyTorch implementation of our paper [A Deep Dive in
 
 
 
-## Paper Summary and Highlights
-In this paper, we investigate if Zero-Shot Learning models differ from supervised models from an adversarial robustness perspective. We leverage a widely-used ZSL model and subject it to several attacks/defenses, and then analyse our results.  Our results show several interesting findings, such as what might happen to a low-accuracy models under attack/defense  settings and the effect of extreme data-bias of ZSL on adversarial robustness.
+## Paper Highlights
+In this paper, we investigate if Zero-Shot Learning models differ from supervised models from an adversarial robustness perspective. We leverage a widely-used ZSL model and subject it to several attacks/defenses, and then analyse our results. Our results show interesting trends, such as 
 
-TODO: add images.
+
+<img src="readme/unseenseen.png" width="1200">
+unseen/seen classes being effected disproportionately and
+
+<img src="readme/upward_spikes.png" width="1200">
+attacks increasing the accuracy values Our analysis finds interesting facts, such as 
+
+<img src="readme/seen_unseen_transition.png" width="1200">
+a strong trend of class transitions towards seen classes and other notable trends. Refer to our paper for more details.
 
 
 ## Repository Contents and Requirements
