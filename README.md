@@ -46,9 +46,5 @@ TODO
 
 ```
 ## Acknowledgements
+This code base has borrowed several implementations from this [link](https://github.com/cetinsamet/attribute-label-embedding-old)
 
-
-TODO:
-
-
-- [ ] Acknowledgements
