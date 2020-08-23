@@ -48,7 +48,6 @@ If you find our code or paper useful in your research, please consider citing ou
   journal={arXiv preprint arXiv:2008.07651},
   year={2020}
 }
-
 ```
 ## Acknowledgements
 This code base has borrowed several implementations from this [link](https://github.com/cetinsamet/attribute-label-embedding-old)
