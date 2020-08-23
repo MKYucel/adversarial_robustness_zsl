@@ -42,7 +42,12 @@ python run.py --json_path path_to_json
 If you find our code or paper useful in your research, please consider citing our paper (will be updated with ECCV bibtex)
 
 ```
-TODO
+@article{yucel2020deep,
+  title={A Deep Dive into Adversarial Robustness in Zero-Shot Learning},
+  author={Yucel, Mehmet Kerim and Cinbis, Ramazan Gokberk and Duygulu, Pinar},
+  journal={arXiv preprint arXiv:2008.07651},
+  year={2020}
+}
 
 ```
 ## Acknowledgements
