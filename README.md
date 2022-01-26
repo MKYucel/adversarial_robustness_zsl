@@ -42,10 +42,10 @@ python run.py --json_path path_to_json
 If you find our code or paper useful in your research, please consider citing our paper (will be updated with ECCV bibtex)
 
 ```
-@inproceedings{yucel2020deep,
+@inproceedings{yucel2020eccvw,
   title={A Deep Dive into Adversarial Robustness in Zero-Shot Learning},
   author={Yucel, Mehmet Kerim and Cinbis, Ramazan Gokberk and Duygulu, Pinar},
-  booktitle={European Conference on Computer Vision},
+  booktitle = {ECCV Workshop on Adversarial Robustness in the Real World}
   pages={3--21},
   year={2020},
   organization={Springer}
