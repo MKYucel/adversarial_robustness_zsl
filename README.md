@@ -3,7 +3,9 @@
 
 This repository contains the PyTorch implementation of our paper [A Deep Dive into Adversarial Robustness in Zero-Shot Learning](https://arxiv.org/abs/2008.07651) presented at [ECCV 2020 Workshop on Adversarial Robustness in the Real World](https://eccv20-adv-workshop.github.io/)
 
+## :exclamation:  UPDATE (January 2022) :exclamation:
 
+- The code/paper/datasets of our follow-up work can be found [here](https://github.com/MKYucel/zero_shot_corruption_benchmarks). 
 
 ## Paper Highlights
 In this paper, we investigate if Zero-Shot Learning models differ from supervised models from an adversarial robustness perspective. We leverage a widely-used ZSL model and subject it to several attacks/defenses, and then analyse our results. Our results show interesting trends, such as 
